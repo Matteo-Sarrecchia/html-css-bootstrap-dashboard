@@ -11,7 +11,7 @@ header{
     left: 0;
     z-index: 900;
     width: 100%;
-    height: 50px;
+    min-height: 50px;
     display: flex;
     align-items: center;
 }
@@ -42,6 +42,7 @@ header{
 }
 
 /* menu link */
+
 .menu-link a{
     margin: 5px;
     font-size: 16px;
@@ -64,16 +65,8 @@ header{
     z-index: 899;
 }
 
-/* main */
-main {
-    width: calc(100% - 150px);
-    height: calc(100vh - 50px);
-    margin-left: 150px;
-    overflow: auto;
-  }
-
-  /* menu navigazione verticale */
-  .nav-x{
+    /* menu navigazione verticale */
+ .nav-x{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -108,7 +101,69 @@ main {
     color: white;
 }
 
+/* main */
+main {
+    width: calc(100% - 150px);
+    height: calc(100vh - 50px);
+    margin-left: 150px;
+    overflow: auto;
+  }
+
+  /* nav-main */
+
+.nav-main{
+    min-height: 100px;
+    padding: 10px;
+    color: white;
+    padding: 10px;
+    background-color: #051E34;
+}
+
+.nav-main .nav-bool{
+    background-color: #051E34;
+    height: 100%;
+}
+
+.nav-bool div, .nav-bool span{
+    padding-left: 20px;
+}
+
+.nav-bool h3, .nav-bool span{
+    margin: 5px 0;
+    display: inline;
+}
  
+.butt-blue{
+    background-color: #0a518e;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 3px 20px;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.nav-bool i{
+    margin-left: 20px;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.main-sx-text{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.link-red{
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+main .btn{
+    margin: 5px;
+}
 
 
 
