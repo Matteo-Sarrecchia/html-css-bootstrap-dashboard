@@ -11,19 +11,53 @@ header{
     left: 0;
     z-index: 900;
     width: 100%;
-    height: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+/* logo */
+.logo img{
+    width: 60%;
+}
+
+/* search */
+.search{
+    width: 100%;
+    background-color: rgb(211, 202, 202);
+    border-radius: 5px;
+}
+
+.search i{
+    margin-top: 5px;
+}
+
+.search input{
+    width: 90%;
+    background-color: rgb(211, 202, 202);
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    padding: 5px;
+}
+
+/* menu link */
+.menu-link a{
+    margin: 5px;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 /* corpo centrale */
 .container-principale{
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 /* menu navigazione verticale */
 .nav-x{
     width: 150px;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 50px);
     position: fixed;
     left: 0;
     bottom: 0;
@@ -33,20 +67,29 @@ header{
 /* main */
 main {
     width: calc(100% - 150px);
-    height: calc(100vh - 100px);
+    height: calc(100vh - 50px);
     margin-left: 150px;
     overflow: auto;
   }
 
 
 
-/* DEBUG */
 
-header{
+
+
+
+
+/* DEBUG */
+/* [class*="col"]{
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+} */
+
+/* header{
     border: 1px solid black;
     background-color: orange;
     
-}
+} */
 
 .nav-x{
     border: 1px solid black;
