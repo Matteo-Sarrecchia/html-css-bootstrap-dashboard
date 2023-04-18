@@ -169,6 +169,30 @@ main .btn{
     margin-top: 50px;
 }
 
+/* main-dx */
+/* sezione checkbox */
+.checkbox-section{
+    margin: 20px 0;
+}
+
+.checkbox-section h3{
+    margin: 10px;
+    font-weight: 700;
+}
+
+.checkbox-section .check-row{
+    border: 1px solid grey;
+    margin: 0 10px;
+}
+
+.form-check{
+    margin: 10px;
+}
+
+.check-row.bottom{
+    margin-bottom: 10px;
+}
+
 
 
 
