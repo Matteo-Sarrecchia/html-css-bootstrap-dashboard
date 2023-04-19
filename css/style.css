@@ -150,23 +150,50 @@ main {
     border-radius: 5px;
 }
 
-.main-sx-text{
-    margin-top: 10px;
-    margin-bottom: 5px;
+/* main-sx */
+.table-main-sx{
+    border: 1px solid lightgrey;
 }
 
-.link-red{
-    text-decoration: none;
-    margin-right: 5px;
-    font-size: 20px;
+.table-main-sx .table{
+    width: 98%;
+    margin: auto;
 }
 
-main .btn{
-    margin: 5px;
+.table-main-sx h3{
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.img-table{
+    max-width: 20px;
+    margin-right: 10px;
+}
+
+.table-main-sx .btn {
+    padding: 2px 18px;
+    font-size: 12px;
+}
+
+.table-main-sx td div .btn{
+    padding: 5px 8px;
+}
+
+
+/* faq */
+.faq-section{
+    margin-top: 50px;
+    border: 1px solid lightgrey;
 }
 
 .faq{
-    margin-top: 50px;
+    width: 98%;
+    margin: auto;
+}
+
+.faq-section h3{
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
 }
 
 /* main-dx */
@@ -199,7 +226,7 @@ main .btn{
 
 /* DEBUG */
 [class*="col"]{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: rgb(255, 255, 255);
 }
 
