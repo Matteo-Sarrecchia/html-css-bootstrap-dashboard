@@ -153,6 +153,7 @@ main {
 /* main-sx */
 .table-main-sx{
     border: 1px solid lightgrey;
+    border-radius: 10px;
 }
 
 .table-main-sx .table{
@@ -184,6 +185,7 @@ main {
 .faq-section{
     margin-top: 50px;
     border: 1px solid lightgrey;
+    border-radius: 10px;
 }
 
 .faq{
@@ -200,15 +202,17 @@ main {
 /* sezione checkbox */
 .checkbox-section{
     border: 1px solid lightgrey;
+    border-radius: 10px;
 }
 
 .checkbox-section h3{
-    margin: 10px;
-    font-weight: 700;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
 }
 
 .checkbox-section .check-row .check-row{
     border: 1px solid lightgrey;
+    border-radius: 10px;
     margin: 0 10px;
 }
 
@@ -220,6 +224,21 @@ main {
     margin-bottom: 10px;
 }
 
+/* sezione grafico */
+.graphic-section{
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-top: 30px;
+    min-height: 100px;
+}
+
+.graphic-section .list-group{
+    margin: 10px;
+}
+
+.graphic-section .list-group img{
+    max-width: 100%;
+}
 
 
 
