@@ -199,7 +199,7 @@ main {
 /* main-dx */
 /* sezione checkbox */
 .checkbox-section{
-    margin: 20px 0;
+    border: 1px solid lightgrey;
 }
 
 .checkbox-section h3{
@@ -207,8 +207,8 @@ main {
     font-weight: 700;
 }
 
-.checkbox-section .check-row{
-    border: 1px solid grey;
+.checkbox-section .check-row .check-row{
+    border: 1px solid lightgrey;
     margin: 0 10px;
 }
 
@@ -216,10 +216,9 @@ main {
     margin: 10px;
 }
 
-.check-row.bottom{
+.checkbox-section .check-row .check-row.bottom{
     margin-bottom: 10px;
 }
-
 
 
 
