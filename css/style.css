@@ -51,10 +51,6 @@ header{
     margin: 10px;
 }
 
-.menu-link a{
-    margin: 10px 5px;
-}
-
 .dropdown{
     display: inline-block;
 }
@@ -65,20 +61,20 @@ header{
 }
 
 .search i{
-    margin-top: 5px;
+    margin: 10px;
 }
 
 .search input{
-    max-width: 98%;
+    width: 60%;
     background-color: rgb(211, 202, 202);
     border-radius: 5px;
     border: none;
-    font-size: 12px;
+    font-size: 14px;
     padding: 5px;
 }
 
-.menu-link a{
-    margin-right: 5px;
+.head.right a{
+    padding: 5px;
     font-size: 16px;
     text-decoration: none;
 }
@@ -123,6 +119,10 @@ header{
     text-decoration: none; 
 }
 
+.fa-solid.fa-chart-simple.stats{
+    padding-right: 5px;
+}
+
 /* nav-down */
   .nav-x-down{
     margin: 10px 0;
@@ -158,11 +158,28 @@ main {
 
 .nav-bool div, .nav-bool span{
     padding-left: 20px;
+    margin-top: 10px;
+}
+
+.nav-bool div span{
+    padding: 0;
 }
 
 .nav-bool h3, .nav-bool span{
     margin: 5px 0;
     display: inline;
+}
+
+.nav-bool.right span{
+    margin: 0;
+}
+
+.nav-bool.right span span{
+    padding: 0;
+}
+
+.nav-bool.right .input-group{
+    padding: 0;
 }
  
 .butt-blue{
@@ -184,6 +201,11 @@ main {
 
 .butt-blue.plus-d-none{
     display: none;
+}
+
+/* nav main offcanvas */
+.offcanvas.offcanvas-end{
+    width: 50%;
 }
 
 /* main-sx */
@@ -289,6 +311,14 @@ main {
         width: calc(100% - 50px);
     }
 
+    .head.center{
+        width: 95%;
+    }
+
+    .head.right{
+        width: 5%;
+    }
+
     /* logo */
     .logo img{
     display: none;
@@ -324,6 +354,19 @@ main {
     }
 
     .a-d-none{
+        display: none;
+    }
+
+    .offcanvas.offcanvas-end {
+        width: 100%;
+    }
+}
+
+
+
+/* query mobile */
+@media screen and (max-width:576px) {
+    .td-d-none, .col.td-d-none{
         display: none;
     }
 }

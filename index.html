@@ -38,7 +38,7 @@
             </div>
 
             <div class="head right">
-                <div class="menu-link">
+                
                     <a class="a-d-none" href="">
                         <i class="fa-solid fa-list" style="color: #000000;"></i>
                     </a>
@@ -85,7 +85,7 @@
                     </li>
                     <li>
                         <a href="">
-                            <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                            <i class="fa-solid fa-chart-simple stats" style="color: #ffffff;"></i>
                             <span>Stats</span>
                         </a>
                     </li>
@@ -119,6 +119,139 @@
                         <section class="nav-main">
                             <div class="container-fluid g-0">
                                 <div class="row">
+
+                                    <div class="col-12 col-md-4 col-lg-3 order-md-1 g-0">
+                                        <div class="nav-bool right">
+                                            <span>
+                                              Nuovo studente  
+                                            <span>
+                                            
+                                            <!-- button aggiungi studente -->
+                                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                                <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
+                                            </button>
+    
+                                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                            <div class="offcanvas-header">
+                                                <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                                                    Inserisci un nuovo studente
+                                                </h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                            </div>
+    
+                                            <!-- inizio form -->
+                                            <div class="offcanvas-body">
+                                                <form class="row g-3">
+                                                    <!-- nome -->
+                                                    <div class="col-md-6">
+                                                      <label for="inputNAme" class="form-label">Nome</label>
+                                                      <input type="text" class="form-control" id="inputName">
+                                                    </div>
+    
+                                                    <!-- cognome -->
+                                                    <div class="col-md-6">
+                                                      <label for="inputSurname" class="form-label">Cognome</label>
+                                                      <input type="password" class="form-control" id="inputSurname">
+                                                    </div>
+    
+                                                    <!-- email -->
+                                                    <div class="col-md-6">
+                                                        <label for="inputEmail" class="form-label">Email</label>
+                                                        <div class="input-group flex-nowrap">
+                                                            <span class="input-group-text" id="addon-wrapping">@
+                                                            </span>
+                                                            <input id="inputEmail" type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
+                                                        </div>
+                                                    </div>
+    
+                                                      <!-- password -->
+                                                      <div class="col-md-6">
+                                                        <label for="inputPassword4" class="form-label">Password</label>
+                                                        <input type="password" class="form-control" id="inputPassword4">
+                                                      </div>
+    
+                                                      <!-- email 2 -->
+                                                      <div class="col-md-6">
+                                                        <label for="inputEmail2" class="form-label">Indirizzo Email</label>
+                                                        <div class="input-group flex-nowrap">
+                                                            <span class="input-group-text" id="addon-wrapping">@
+                                                            </span>
+                                                            <input id="inputEmail2" type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
+                                                        </div>
+                                                    </div>
+    
+                                                      <!-- password 2 -->
+                                                      <div class="col-md-6">
+                                                        <label for="inputPassword4" class="form-label">Password</label>
+                                                        <input type="password" class="form-control" id="inputPassword4">
+                                                      </div>
+    
+                                                      <!-- indirizzo -->
+                                                    <div class="col-12">
+                                                      <label for="inputAddress" class="form-label">Indirizzo</label>
+                                                      <input type="text" class="form-control" id="inputAddress">
+                                                    </div>
+    
+                                                    <!-- città -->
+                                                    <div class="col-md-6">
+                                                      <label for="inputCity" class="form-label">Città</label>
+                                                      <input type="text" class="form-control" id="inputCity">
+                                                    </div>
+    
+                                                    <!-- stato -->
+                                                    <div class="col-md-4">
+                                                      <label for="inputState" class="form-label">Stato</label>
+                                                      <select id="inputState" class="form-select">
+                                                        <option selected>Scegli...</option>
+                                                        <option>Italia</option>
+                                                        <option>Stati Uniti</option>
+                                                        <option>Francia</option>
+                                                        <option>Spagna</option>
+                                                        <option>Germania</option>
+                                                      </select>
+                                                    </div>
+    
+                                                    <!-- cap -->
+                                                    <div class="col-md-2">
+                                                      <label for="inputZip" class="form-label">Zip</label>
+                                                      <input type="text" class="form-control" id="inputZip">
+                                                    </div>
+    
+                                                    <!-- scegli file -->
+                                                    <div class="col-12">
+                                                        <div class="input-group">
+                                                        <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                                        </div>
+                                                    </div>
+    
+                                                    <!-- check -->
+                                                    <div class="col-12">
+                                                      <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                        <label class="form-check-label" for="gridCheck">
+                                                          Seleziona per proseguire
+                                                        </label>
+                                                      </div>
+                                                    </div>
+    
+                                                    <!-- buutton -->
+                                                    <div class="col-12">
+    
+                                                        <!-- button blue -->
+                                                      <button type="submit" class="btn btn-primary">Salva</button>
+    
+                                                        <!-- button giallo -->
+                                                      <button type="button" class="btn btn-warning">Svuota</button>
+                                                    </div>
+    
+                                                </form>
+                                            </div>
+    
+                                            </div>
+                                            <!-- fine -->
+    
+                                        </div>
+                                      </div>
     
                                   <div class="col-12 col-md-4 col-lg-6 g-0">
                                     <div class="nav-bool">
@@ -141,23 +274,18 @@
                                     </div>
                                   </div>
     
-                                  <div class="col-12 col-md-4 col-lg-4 g-0">
+                                  <div class="col-12 col-md-4 col-lg-3 g-0">
                                     <div class="nav-bool">
                                         <div>
-                                            Studenti online negli ultimi 30 anni
+                                            <span>
+                                              Studenti online negli ultimi 30 anni  
+                                            </span>
                                         </div>
                                         <div>125</div>
                                     </div>
                                   </div>
     
-                                  <div class="col-12 col-md-4 col-lg-2 g-0">
-                                    <div class="nav-bool">
-                                        <span>
-                                          Nuovo studente  
-                                        <span>
-                                        <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
-                                    </div>
-                                  </div>
+                                  
                                 </div>
                               </div>
 
@@ -178,8 +306,8 @@
                                 <thead>
                                     <tr>
                                     <th class="text-start" scope="col">Nome</th>
-                                    <th scope="col">Data inizio</th>
-                                    <th scope="col">ROI</th>
+                                    <th class="td-d-none" scope="col">Data inizio</th>
+                                    <th class="td-d-none" scope="col">ROI</th>
                                     <th scope="col">Stato</th>
                                     <th scope="col">Azioni</th>
                                     </tr>
@@ -192,8 +320,8 @@
                                         <img class="img-table" src="img/class-avatar2.jpg" alt="">
                                         <span>Classe 75</span>
                                     </td>
-                                    <td>15 Febbraio 2021</td>
-                                    <td>20%</td>
+                                    <td class="td-d-none">15 Febbraio 2021</td>
+                                    <td class="td-d-none">20%</td>
                                     <td>
                                         <button type="button" class="btn btn-success">Done</button>
                                     </td>
@@ -216,8 +344,8 @@
                                         <img class="img-table" src="img/class-avatar2.jpg" alt="">
                                         <span>Classe 76</span>
                                     </td>
-                                    <td>16 Febbraio 2021</td>
-                                    <td>20%</td>
+                                    <td class="td-d-none">16 Febbraio 2021</td>
+                                    <td class="td-d-none">20%</td>
                                     <td>
                                         <button type="button" class="btn btn-success">Done</button>
                                     </td>
@@ -240,8 +368,8 @@
                                         <img class="img-table" src="img/class-avatar2.jpg" alt="">
                                         <span>Classe 77</span>
                                     </td>
-                                    <td>17 Febbraio 2021</td>
-                                    <td>20%</td>
+                                    <td class="td-d-none">17 Febbraio 2021</td>
+                                    <td class="td-d-none">20%</td>
                                     <td>
                                         <button type="button" class="btn btn-warning">process</button>
                                     </td>
@@ -264,8 +392,8 @@
                                         <img class="img-table" src="img/class-avatar2.jpg" alt="">
                                         <span>Classe 78</span>
                                     </td>
-                                    <td>18 Febbraio 2021</td>
-                                    <td>20%</td>
+                                    <td class="td-d-none">18 Febbraio 2021</td>
+                                    <td class="td-d-none">20%</td>
                                     <td>
                                         <button type="button" class="btn btn-success">Done</button>
                                     </td>
@@ -288,8 +416,8 @@
                                         <img class="img-table" src="img/class-avatar2.jpg" alt="">
                                         <span>Classe 79</span>
                                     </td>
-                                    <td>19 Febbraio 2021</td>
-                                    <td>20%</td>
+                                    <td class="td-d-none">19 Febbraio 2021</td>
+                                    <td class="td-d-none">20%</td>
                                     <td>
                                         <button type="button" class="btn btn-danger">failed</button>
                                     </td>
@@ -312,8 +440,8 @@
                                         <img class="img-table" src="img/class-avatar2.jpg" alt="">
                                         <span>Classe 80</span>
                                     </td>
-                                    <td>20 Febbraio 2021</td>
-                                    <td>20%</td>
+                                    <td class="td-d-none">20 Febbraio 2021</td>
+                                    <td class="td-d-none">20%</td>
                                     <td>
                                         <button type="button" class="btn btn-success">Done</button>
                                     </td>
@@ -336,8 +464,8 @@
                                         <img class="img-table" src="img/class-avatar2.jpg" alt="">
                                         <span>Classe 81</span>
                                     </td>
-                                    <td>21 Febbraio 2021</td>
-                                    <td>20%</td>
+                                    <td class="td-d-none">21 Febbraio 2021</td>
+                                    <td class="td-d-none">20%</td>
                                     <td>
                                         <button type="button" class="btn btn-danger">failed</button>
                                     </td>
@@ -360,8 +488,8 @@
                                         <img class="img-table" src="img/class-avatar2.jpg" alt="">
                                         <span>Classe 82</span>
                                     </td>
-                                    <td>22 Febbraio 2021</td>
-                                    <td>20%</td>
+                                    <td class="td-d-none">22 Febbraio 2021</td>
+                                    <td class="td-d-none">20%</td>
                                     <td>
                                         <button type="button" class="btn btn-success">Done</button>
                                     </td>
